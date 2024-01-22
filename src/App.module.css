@@ -1,0 +1,37 @@
+.App {
+    background: linear-gradient(rgb(255, 255, 255), white);
+}
+
+.App-header {
+    height: 60px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(167, 113, 255), rgb(255, 255, 255));
+    margin: 0;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 900;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.AddTodoBlock{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todolistAddInput {
+    height: 25px;
+    width: 150px;
+    border-radius: 5px;
+    border: 2px solid rgb(167, 113, 255);
+    padding: 2px 5px;
+    font-family: Serif;
+    font-size: large;
+    margin-right: 10px;
+}
+

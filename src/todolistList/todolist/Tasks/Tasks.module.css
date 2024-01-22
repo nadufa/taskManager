@@ -1,0 +1,35 @@
+.todolistTaskField {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.todolistTaskField input {
+    transform: scale(140%);
+}
+
+
+.todolistTaskField input[type='checkbox'] {
+    accent-color: rgb(167, 113, 255);
+}
+
+.todolistTaskField h3{
+    margin: 0 5px;
+}
+
+.deleteTaskButton {
+    height: 23px;
+    width: 23px;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Garamond;
+    border: none;
+    background: none;
+    color: rgb(114, 71, 185);
+    box-shadow: none;
+}
+
